@@ -51,7 +51,7 @@
     background-color: #eaeaea;
     padding: 0.5rem 0 0.5rem 0;
     margin-bottom: 1rem;
-    max-width: 96rem;
+    max-width: 80rem;
 }
 
 /* Mobile Rules - LM */
@@ -94,7 +94,7 @@
 }
 
 .bikeImage {
-    width: 80%;
+    width: 90%;
     aspect-ratio: 16 / 9;
     object-fit: contain;
     background-color: white;
@@ -157,6 +157,24 @@
     font-size: 1.1rem;
     font-weight: bold;
     background-color: #ec1d24;
+    width: 40%;
+    min-width: 10rem;
+    height: 3rem;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.whiteButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid #ec1d24;
     width: 40%;
     min-width: 10rem;
     height: 3rem;
